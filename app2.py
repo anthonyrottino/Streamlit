@@ -26,7 +26,7 @@ st.title("📊 ETF Portfolio Optimizer & Risk Engine")
 st.sidebar.header("📂 Données ETF")
 
 uploaded_file = st.sidebar.file_uploader(
-    "Upload un CSV avec les prix des ETF (Date + colonnes de prix)",
+    "Upload un CSV example here : https://github.com/anthonyrottino/Streamlit",
     type=["csv"]
 )
 
@@ -1573,3 +1573,4 @@ with tab_dynreg:
             file_name="dynreg_trade_log.csv",
             mime="text/csv"
         )
+
